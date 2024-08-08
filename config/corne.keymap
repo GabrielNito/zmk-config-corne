@@ -35,8 +35,8 @@
 // | CTRL |  \  |  `  |  ~  |  [  |  ]  |   |  {  |  }  |  -  |  =  |  |  | ESC  |
 //                    | ALT |     | BKSP|   | SPC |     | LGUI |
                         bindings = <
-   &kp TAB      &kp EXCL &kp AT &kp HASH &kp PRCNT &kp      &kp CARET &kp AMPS &kp ASTRK &kp LPAR &kp RPAR &kp RET
-   &kp SHFT     &kp N1  &kp N2  &kp N3  &kp N4  &kp N5      &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp SQT
+   &kp TAB      &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT &kp CARET &kp AMPS &kp ASTRK &kp LPAR &kp RPAR &kp RET
+   &kp LSHFT    &kp N1  &kp N2  &kp N3  &kp N4  &kp N5      &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp SQT
    &kp LCTRL    &kp BSLH &kp GRAVE &kp TILDE &kp LBKT &kp RBKT &kp LBRC &kp RBRC &kp MINUS &kp EQUAL &kp PIPE &kp ESC
                                 &kp LALT &mo 1  &kp BSPC    &kp SPACE &mo 2 &kp LGUI
                         >;
@@ -50,8 +50,8 @@
 //                    | ALT |     | BKSP|   | SPC |     | LGUI|
                         bindings = <
    &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6      &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12
-   &trans &trans &trans UP_ARROW &trans &trans &trans   &trans &trans &trans &trans &trans &trans
-   &trans &trans LEFT_ARROW &kp DOWN_ARROW &kp RIGHT_ARROW &trans &trans   &kp K_MUTE &kp C_PAUSE &trans &trans &trans &trans
+   &trans &trans &kp UP_ARROW &trans &trans &trans   &kp C_VOL_UP &kp C_VOL_DN &trans &trans &trans &trans
+   &trans &kp LEFT_ARROW &kp DOWN_ARROW &kp RIGHT_ARROW &trans &trans   &kp K_MUTE &kp C_PAUSE &trans &trans &trans &trans
                   &kp LALT &mo 1 &kp BSPC   &kp SPACE &mo 2 &kp LGUI
                         >;
                 };
